@@ -1,4 +1,4 @@
-name: Build Python module using pip
+name: Build Python module using pip 2
 
 # The CI pipeline build script is currently disabled due to issues with the CUDA installation.
 on:
@@ -36,4 +36,3 @@ jobs:
         run: |
           export CONDA_ALWAYS_YES="true"
           conda install pytorch torchvision torchaudio cpuonly -c pytorch
-          conda install numpy sympy numba matplotlib tqdm scikit-image conda-forge::tensorboard conda-forge::opencv conda-forge::openexr-python
