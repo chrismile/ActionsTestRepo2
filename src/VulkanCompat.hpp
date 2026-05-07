@@ -29,9 +29,6 @@
 #ifndef SGL_VULKANCOMPAT_HPP
 #define SGL_VULKANCOMPAT_HPP
 
-#include <Defs.hpp>
-#include "../libs/volk/volk.h"
-
 /*
 ** Copyright 2015-2024 The Khronos Group Inc.
 **
