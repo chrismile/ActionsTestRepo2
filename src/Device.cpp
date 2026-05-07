@@ -32,7 +32,7 @@
 
 #ifdef __APPLE__
 //#define VK_ENABLE_BETA_EXTENSIONS
-#include <vulkan/vulkan_beta.h>
+//#include <vulkan/vulkan_beta.h>
 #endif
 
 bool DeviceFeatures::setExtensionFeaturesFromPNextEntry(
